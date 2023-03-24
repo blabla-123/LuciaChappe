@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$bg-colorPrincipal: yellow;
+
+header {
+  background-color: $bg-colorPrincipal;
+
+  img {
+    width: 500px;
+  }
+
+  nav {
+    background-color: white;
+
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+
+  li {
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      color: blue;
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
+
+body {
+  background: #000;
+}
+
+main {
+  background-color: $bg-colorPrincipal;
+}

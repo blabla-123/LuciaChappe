@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: yellow; }
+  header img {
+    width: 500px; }
+  header nav {
+    background-color: white; }
+
+.navbar {
+  display: flex;
+  justify-content: center; }
+  .navbar li {
+    list-style: none; }
+    .navbar li a {
+      text-decoration: none;
+      color: blue; }
+      .navbar li a:hover {
+        color: red; }
+
+body {
+  background: #000; }
+
+main {
+  background-color: yellow; }
